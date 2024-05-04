@@ -19,6 +19,8 @@ nav ul {
 main {
   display: flex;
   margin: 150px;
+  flex-wrap: wrap;
+  width:1730px;
 }
 
 
@@ -104,5 +106,16 @@ main {
 }
 
 .mini-project:hover p {
+  display:inline;
+}
+
+.cheatsheet {
+  margin-left: 170px;
+}
+.cheatsheet img {
+  width: 100%;
+}
+
+.cheatsheet:hover p {
   display:inline;
 }
