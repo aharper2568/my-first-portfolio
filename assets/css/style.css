@@ -77,6 +77,7 @@ main {
 
 .main-project img {
   width:100%;
+  border-radius: 30px;
 }
 
 /* overcomplicated overlay, probably needs seperate container */
@@ -86,6 +87,7 @@ main {
   top: 640px;
   right: 1200px;
   display:none;
+  
 }
 .main-project:hover p {
   display: inline;
@@ -105,17 +107,31 @@ main {
   display:none;
 }
 
+.mini-project img {
+  border-radius: 30px;
+}
+
 .mini-project:hover p {
   display:inline;
 }
 
 .cheatsheet {
+  margin-top:25px;
   margin-left: 170px;
+  width:650px;
 }
 .cheatsheet img {
-  width: 100%;
+  border-radius: 30px;
 }
 
 .cheatsheet:hover p {
   display:inline;
+}
+
+.p3-overlay p {
+  position:absolute;
+  transform: translateX(215px);
+  top:998px;
+  background-color: white;
+  display:none;
 }
