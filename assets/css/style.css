@@ -70,16 +70,18 @@ main {
 .main-project {
   display: inline-flex;
   width:850px;
-  transition: ease-in 1s;
+  margin-left:20px;
 }
 
 .main-project img {
-  width:750px;
+  width:100%;
 }
+
+/* overcomplicated overlay, probably needs seperate container */
 .main-project p {
   background-color: white;
   position: absolute;
-  top: 650px;
+  top: 640px;
   right: 1200px;
   display:none;
 }
@@ -88,7 +90,19 @@ main {
   cursor: pointer;
   
 }
-
-.main-project:hover a{
+/* I can't get this shadow to work */
+.main-project:hover img{
   box-shadow: 5px 2px 1px rgba(0, 0, 0, 1) inset;
+}
+
+.image-overlay p {
+  position:absolute;
+  transform: translateX(250px);
+  top:640px;
+  background-color: white;
+  display:none;
+}
+
+.mini-project:hover p {
+  display:inline;
 }
