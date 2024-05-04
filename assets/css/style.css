@@ -30,9 +30,17 @@ main {
   margin-top: 15px;
 }
 
+.top-container img {
+  margin-left:1200px;
+  width:180px;
+  border-radius: 50px;
+  border: 3px dashed orange;
+  box-shadow:5px 5px 2px gray;
+}
+
 .about-me-text {
   display:inline-flex;
-  flex-wrap: wrap;
+
 }
 
 .about-me-text p {
@@ -87,6 +95,7 @@ main {
   top: 640px;
   right: 1200px;
   display:none;
+  border-radius: 5px;
   
 }
 .main-project:hover p {
