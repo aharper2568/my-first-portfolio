@@ -114,6 +114,7 @@ main {
   top:640px;
   background-color: white;
   display:none;
+  border-radius: 5px;
 }
 
 .mini-project img {
@@ -143,4 +144,5 @@ main {
   top:998px;
   background-color: white;
   display:none;
+  border-radius: 5px;
 }
