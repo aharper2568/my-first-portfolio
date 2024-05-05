@@ -197,6 +197,16 @@ footer {
     display: inline;
     top:1298px;
   }
- 
+  .image-overlay p {
+    display: inline;
+    top:1000px;
+  }
+
+  .seo-overlay p {
+    display:inline;
+    position: fixed;
+    right:1300px;
+    
+  }
 
 }
