@@ -102,7 +102,7 @@ footer {
 }
 
 /* overcomplicated overlay, probably needs seperate container */
-.main-project p {
+.seo-overlay p{
   background-color: white;
   position: absolute;
   top: 640px;
@@ -197,14 +197,6 @@ footer {
     display: inline;
     top:1298px;
   }
-  .image-overlay p {
-    display: inline;
-    top:1000px;
-  }
-
-  .main-project p {
-    display:inline;
-    z-index: 1;
-  }
+ 
 
 }
