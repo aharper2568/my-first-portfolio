@@ -3,17 +3,26 @@
   margin:0;
 }
 
-header {
- background-color: aliceblue;
+body {
+  background-color: aliceblue;
 }
+
 h1 {
+  padding:10px;
   text-align: center;
 }
+
 nav ul {
   display: flex;
   background-color: #d8a47f;
   justify-content: space-around;
   list-style-type: none;
+}
+
+nav ul a {
+  color:black;
+  text-decoration: none;
+  font-weight: 600;
 }
 
 main {
@@ -23,13 +32,17 @@ main {
   width:1730px;
 }
 
-
+footer {
+  background-color: bisque;
+  padding:20px;
+  text-align: center;
+}
 
 .top-container {
   display:flex;
   margin-top: 15px;
 }
-
+/* This img's margin is the only way I could figure out to keep the image beside my text. */
 .top-container img {
   margin-left:1200px;
   width:180px;
@@ -46,25 +59,25 @@ main {
 .about-me-text p {
   margin-left:20px;
   border-left: 2px solid rgba(0, 0, 0, 0.3);
-  border-bottom: 2px solid rgba(0, 0, 0, 0.);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: 1px 0 7px rgba(0, 0, 0, 0.7) inset;
   padding-bottom: 25px;
   padding-left:5px;
   padding-top:10px;
   padding-right:8px;
   position:absolute;
-  top: 90px;
+  top: 130px;
 }
 
 .about-me {
   display:inline-flex;
   flex-direction: column;
-  align-items: flex-start;
+
   margin-top:25px;
   border-right: 4px black;
   border-right-style: solid;
   width:150px;
-  
+  margin-left:146px;
 }
 
 .my-work {
@@ -145,4 +158,53 @@ main {
   background-color: white;
   display:none;
   border-radius: 5px;
+}
+
+.contact-side {
+  display:flex;
+  padding-left:126px;
+  margin-bottom:45px;
+  background-color: aliceblue;
+}
+
+.contact-side h2 {
+  border-right: 4px solid black;
+  padding-right:40px;
+}
+.contact-info {
+  display: flex;
+  margin-left:20px;
+}
+
+.contact-info a{
+  color:black;
+  text-decoration: none;
+  margin-right:20px;
+}
+
+
+@media screen and (max-width: 992px) {
+  main {
+    flex-direction: column;
+    margin-left:0;
+    align-items: start;
+  }
+  .cheatsheet {
+    margin:0;
+  }
+
+  .p3-overlay p{
+    display: inline;
+    top:1298px;
+  }
+  .image-overlay p {
+    display: inline;
+    top:1000px;
+  }
+
+  .main-project p {
+    display:inline;
+    z-index: 1;
+  }
+
 }
