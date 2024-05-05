@@ -184,6 +184,10 @@ footer {
 
 
 @media screen and (max-width: 992px) {
+  body {
+    overflow-x: hidden;
+  }
+  
   main {
     flex-direction: column;
     margin-left:0;
@@ -208,5 +212,47 @@ footer {
     right:1300px;
     
   }
+  .top-container img {
+    margin-left:300px;
+  }
+}
 
+@media screen and (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+  }
+  
+  main {
+    flex-direction: column;
+    margin-left:0;
+    align-items: start;
+  }
+  .cheatsheet {
+    margin:0;
+  }
+
+  .p3-overlay p{
+    display: inline;
+    top:1298px;
+  }
+  .image-overlay p {
+    display: inline;
+    top:1000px;
+  }
+
+  .seo-overlay p {
+    display:inline;
+    position: fixed;
+    right:1300px;
+    
+  }
+  .top-container img {
+    position: relative;
+    top:180px;
+    width:120px; 
+  }
+
+  .about-me {
+    margin-left:0;
+  }
 }
