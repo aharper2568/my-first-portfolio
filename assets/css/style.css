@@ -259,17 +259,22 @@ footer {
 
   .p3-overlay p{
     display: inline;
-    top:1298px;
+    top:1015px;
+    transform: translateX(80px);
   }
+
+  /* Using the 'right' property here condenses the text, had to use transform instead */
   .image-overlay p {
     display: inline;
-    top:1000px;
+    top:820px;
+    transform: translateX(80px);
   }
 
   .seo-overlay p {
     display:inline;
-    position: fixed;
-    right:1300px;
+    position: absolute;
+    right:500px;
+    top:630px;
     
   }
   .top-container img {
