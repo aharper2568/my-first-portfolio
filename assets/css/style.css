@@ -109,7 +109,7 @@ footer {
   right: 1200px;
   display:none;
   border-radius: 5px;
-  
+/* Can't tell if the container helped */
 }
 .main-project:hover p {
   display: inline;
@@ -219,7 +219,7 @@ footer {
 
 @media screen and (max-width: 768px) {
   body {
-    overflow-x: hidden;
+    height: 100%;
   }
   /* The flex-direction: column should adapt better to smaller viewports */
   /* Make sure containers do not exceed width of the viewport to avoid excess whitespace */
@@ -228,7 +228,6 @@ footer {
     margin-left:0;
     align-items: start;
     width:100%;
-    min-height: 100%vh;
   }
 
   .about-me {
@@ -280,4 +279,58 @@ footer {
   .about-me {
     margin-left:0;
   }
+}
+
+@media screen and (max-width: 412px){
+body {
+  overflow-x: hidden;
+  height:1024px;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+main {
+  flex-direction: column;
+  margin-left:0;
+  align-items: start;
+  width:100%;
+}
+
+.main-project {
+  width:100%;
+}
+
+.about-me-text p{
+  width:200px;
+}
+
+
+.cheatsheet {
+  margin:0;
+}
+
+.p3-overlay p{
+  display: inline;
+  top:770px;
+  transform:translateX(70px)
+}
+.image-overlay p {
+  display: inline;
+  top:960px;
+  transform:translateX(70px)
+}
+/* The only way this element is made visible again is with a fixed position */
+.seo-overlay p {
+  display:inline;
+  position: fixed;
+  right:350px;
+  top:575px;
+}
+
+.top-container img {
+  margin-left:250px;
+  width:80px;
+}
 }
