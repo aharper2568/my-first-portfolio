@@ -188,12 +188,21 @@ footer {
   /* this was meant to hide excess horizontal whitespace */
   body {
     overflow-x: hidden;
+    min-height: 100vh;
   }
   
   main {
     flex-direction: column;
     margin-left:0;
     align-items: start;
+  }
+
+  nav {
+    max-width: 100%;
+  }
+
+  .main-project{
+    width:100%;
   }
   .cheatsheet {
     margin:0;
@@ -223,6 +232,10 @@ footer {
   body {
     height: 100%;
   }
+
+  header {
+    width: 100%;
+  }
   /* The flex-direction: column should adapt better to smaller viewports */
   /* Make sure containers do not exceed width of the viewport to avoid excess whitespace */
   main {
@@ -237,15 +250,15 @@ footer {
   }
 
   .about-me-text p {
-    width:500px;
+    width:30%;
   }
 
   .main-project img {
-    width:400px;
+    width:50%;
   }
 
   .mini-project img {
-    width:380px;
+    width:60%;
   }
 
   .cheatsheet img {
