@@ -1,3 +1,11 @@
-# Anthony Harper's Portfolio
+# MY FIRST PORTFOLIO
 
-This is a single webpage that serves as a showcase for the work that I've accomplished.
+## Intro
+
+This webpage is to serve as an online portfolio that was developed from scratch. It shows off notable projects and works done by the author and provides methods of contact.
+
+## URL
+
+[Live URL](https://aharper2568.github.io/my-first-portfolio/) \
+[GitHub Repo](https://github.com/aharper2568/my-first-portfolio)
+
