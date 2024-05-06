@@ -221,12 +221,37 @@ footer {
   body {
     overflow-x: hidden;
   }
-  
+  /* The flex-direction: column should adapt better to smaller viewports */
+  /* Make sure containers do not exceed width of the viewport to avoid excess whitespace */
   main {
     flex-direction: column;
     margin-left:0;
     align-items: start;
+    width:100%;
+    min-height: 100%vh;
   }
+
+  .about-me {
+    padding-right:0px;
+  }
+
+  .about-me-text p {
+    width:500px;
+  }
+
+  .main-project img {
+    width:400px;
+  }
+
+  .mini-project img {
+    width:380px;
+  }
+
+  .cheatsheet img {
+    width:380px;
+  }
+
+
   .cheatsheet {
     margin:0;
   }
