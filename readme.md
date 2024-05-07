@@ -16,4 +16,6 @@ This webpage is to serve as an online portfolio that was developed from scratch.
 
 
 ## Author
-This was made in VSCode by me, Anthony Harper.
+**Anthony Harper** \
+I developed this website in VScode.
+

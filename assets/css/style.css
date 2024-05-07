@@ -227,7 +227,7 @@ footer {
     margin-left:300px;
   }
 }
-
+/* I made the labels to the project visible after this point for touch screen users */
 @media screen and (max-width: 768px) {
   body {
     height: 100%;
