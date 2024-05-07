@@ -356,8 +356,8 @@ main {
 /* The only way this element is made visible again is with a fixed position */
 .seo-overlay p {
   display:inline;
-  position: fixed;
-  right:440px;
+  position: absolute;
+  right:140px;
   top: 505px;
 }
 

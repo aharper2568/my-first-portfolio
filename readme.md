@@ -10,4 +10,4 @@ This webpage is to serve as an online portfolio that was developed from scratch.
 [GitHub Repo](https://github.com/aharper2568/my-first-portfolio)
 
 ## Screenshots
-[screenshot](./assets/images/folio.png)
+![screenshot](./assets/images/folio.png)
