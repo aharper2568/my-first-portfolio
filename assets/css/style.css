@@ -266,15 +266,15 @@ footer {
   }
 
   .main-project img {
-    width:50%;
+    width:56%;
   }
 
   .mini-project img {
-    width:60%;
+    width:55%;
   }
 
   .cheatsheet img {
-    width:380px;
+    width:60%;
   }
 
 
@@ -346,7 +346,7 @@ main {
 .p3-overlay p{
   display: inline;
   top:770px;
-  transform:translateX(70px)
+  transform:translateX(30px)
 }
 .image-overlay p {
   display: inline;
@@ -365,6 +365,19 @@ main {
   margin-left:250px;
   width:80px;
 }
+
+.main-project img {
+  width:66%;
+}
+
+.mini-project img {
+  width:63%;
+}
+
+.cheatsheet img {
+  width:40%;
+}
+
 
 .contact-side {
   padding-left: 0;
