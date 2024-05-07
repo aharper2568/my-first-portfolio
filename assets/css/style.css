@@ -234,7 +234,19 @@ footer {
   }
 
   header {
-    width: 100%;
+    width:100%;
+  }
+
+  h1 {
+    text-align: start;
+  }
+
+  nav ul {
+    justify-content: start;
+  }
+
+  ul li {
+    margin-right:55px;
   }
   /* The flex-direction: column should adapt better to smaller viewports */
   /* Make sure containers do not exceed width of the viewport to avoid excess whitespace */
@@ -338,15 +350,15 @@ main {
 }
 .image-overlay p {
   display: inline;
-  top:960px;
-  transform:translateX(70px)
+  top:625px;
+  transform:translateX(40px)
 }
 /* The only way this element is made visible again is with a fixed position */
 .seo-overlay p {
   display:inline;
   position: fixed;
-  right:350px;
-  top:575px;
+  right:440px;
+  top: 505px;
 }
 
 .top-container img {
